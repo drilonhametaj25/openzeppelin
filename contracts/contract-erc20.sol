@@ -1,15 +1,15 @@
 pragma solidity ^0.5.0;
 
-import '@openzeppelin/contracts/token/SafeERC20.sol';
-import '@openzeppelin/contracts/token/IERC20.sol';
+import '@openzeppelin/contracts/token/ERC20/SafeERC20.sol';
+import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
 
 
-import '@openzeppelin/contracts/token/ERC20.sol';
-import '@openzeppelin/contracts/token/ERC20Detailed.sol'; // Detailed of contract to create
-import '@openzeppelin/contracts/token/ERC20Pausable.sol'; // Puase a contract
-import '@openzeppelin/contracts/token/ERC20Capped.sol'; // Limiting number of token minabled
-import '@openzeppelin/contracts/token/ERC20Mintable.sol'; // If want token minable
-import '@openzeppelin/contracts/token/ERC20Burnable.sol'; // for burning token
+import '@openzeppelin/contracts/token/ERC20/ERC20.sol';
+import '@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol'; // Detailed of contract to create
+import '@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol'; // Puase a contract
+import '@openzeppelin/contracts/token/ERC20/ERC20Capped.sol'; // Limiting number of token minabled
+import '@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol'; // If want token minable
+import '@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol'; // for burning token
 
 contract MyToken2 is SafeERC20 { // This is safe contract that check address of recipient if is the same type
 
